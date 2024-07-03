@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Mahmoud Abd Elshify</title>
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+      <header class="header">
+
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+
+        </label>
+        <input  id="menu" class="burger-menu__checkbox"  type="checkbox" >
+
+
+        <nav class="navigation">
+          <ul class="navigation_list">
+            <li><a href="#bio" class="navigation_link navigation__bio">bio</a></li>
+            <li><a href="#skills" class="navigation_link navigation__skills">skills</a></li>
+            <li><a href="#media" class="navigation_link navigation__media">media</a></li>
+            <li><a href="#projects" class="navigation_link navigation__projects">projects</a></li>
+            <li><a href="#clients" class="navigation_link navigation__clients">my clients</a></li>
+            <li><a href="#contact" class="navigation_link navigation__contact">contact</a></li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">swith theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">hi there, i'm a front end developer</h1>
+          <p class="bio__objective">
+            my name is <span class="bio__name">mahmoud abd elshify</span>, i
+            work as a front end developer
+            <a href="#" class="bio__facebook">facebook</a>,
+            <a href="https://github.com/" class="bio__github">github</a>,
+            <a href="https://www.linkedin.com/feed/" class="bio__linkedin"
+              >linked In</a
+            >,
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">say hi</a>
+          <a href="#" class="bio__links find-out-link"
+            >download <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="/images/img.png"
+            alt="image of mohamoud abd el shify"
+          />
+        </div>
+      </section>
+      <section class="skills section section--with-bg" id="skills">
+        <h2 class="h2__heading">skills</h2>
+
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">html</h2>
+            <span class="skills__years">8 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">css</h2>
+            <span class="skills__years">8 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">javascript</h2>
+            <span class="skills__years">2 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">react</h2>
+            <span class="skills__years">1 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">redux</h2>
+            <span class="skills__years">1 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">react testing library</h2>
+            <span class="skills__years">1 years</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="media" class="media section">
+        <video class="media__video" controls width="1200px">
+          <source
+          src="./استغني بالله 🌹 -د.محمد الغليظ-امشي عكسهم.mp4" type="video/mp4"
+          src="./monaga.mp4" type="video/mp4"
+          />
+        </video>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="h2__heading">my featured <br />projects</h2>
+
+        <div class="projects__main">
+          <img
+            src="/images/project-1.jpg"
+            class="projects__img"
+            alt="Quran Tab extension"
+          />
+
+          <div class="projects__data">
+            <h3 class="h3__heading">Quran tab <br />extension</h3>
+            <p class="projects__description">
+              quran tab is a islamic new tab page that will keep ou inspired by
+              a verse from th quran ebery time you open a new tab that helps you
+              achieve yout "khatma" and keeps you connected with the words of
+              allah
+            </p>
+            <a href="#" class="projects__links" target="_blank">chrome link</a>
+            <span>-</span>
+            <a href="#" class="projects__links" target="_blank">edge link</a>
+          </div>
+
+          <div class="projects-data">
+            <h3 class="h3__heading">Quran station <br />extension</h3>
+            <p class="projects__description">
+              quran tab is a islamic new tab page that will keep ou inspired by
+              a verse from th quran ebery time you open a new tab that helps you
+              achieve yout "khatma" and keeps you connected with the words of
+              allah
+            </p>
+            <a href="#" class="projects__links" target="_blank">chrome link</a>
+            <span>-</span>
+            <a href="#" class="projects__links" target="_blank">edge link</a>
+            <span>-</span>
+            <a href="#" class="projects__links" target="_blank">firefox</a>
+          </div>
+
+          <img
+            class="projects__img"
+            src="/images/project-2.jpg"
+            alt="Quran Tab extension"
+          />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section--with-bg">
+        <h2 class="h2__heading">
+          what my <br />
+          clients says
+        </h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Abusrea has the advantageous ability to understand a problem and
+              implement code to a high standard within the deadline. Each
+              project we have worked on, I know I can completely trust Abusrea
+              to own his tasks and complete what is needed when asked of him.
+            </p>
+            <p class="clients__opinion">
+              m and implement code to a high standard within the deadline. Each
+              project we have worked on, I know I can completely trust Abusrea
+              to own his tasks and complete what is needed when asked of him.
+              Mohamed will patiently listen to you and give you his own Ideas as
+              well, and in the end, he comes up with something completely
+              different from what you’re expecting, but the good news is, you’ll
+              always love it.
+            </p>
+            <p class="clients__opinion">
+              Ideas as well, and in the end, he comes up with something
+              completely different from what you’re expecting, but the good news
+              is, you’ll always love it. I had a chance to work closely with
+              Mohamed as a direct manager from hist first day at DeliveryHero
+              until my last day there (6+months). Mohamed's biggest strengths
+              that I admire are taking initiatives on personal and team level,
+              and driving them
+            </p>
+          </div>
+        </div>
+      </section>
+      <ssection id="contact" class="contact section">
+        <div class="">
+            <p class="contact__desctipion">
+                Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time zones away.
+            </p>
+            <a  class="contact__email" href="mailto:example@gmail.com">example@gmail.com</a>
+        
+            <div class="contact__socials">
+            <a  class="contact__social" href="#">
+                <img src="/images/brand/facebook.svg" alt="icon of facebook">
+            </a>
+            <a  class="contact__social" href="#">
+                <img src="/images/brand/twitter.svg" alt="icon of twitter">
+            </a>
+            <a  class="contact__social" href="#">
+                <img src="/images/brand/youtube.svg" alt="icon of youtube">
+            </a>
+            <a  class="contact__social" href="#">
+                <img src="/images/brand/github.svg" alt="icon of github">
+            </a>
+            <a  class="contact__social" href="#">
+                <img src="/images/brand/instagram.svg" alt="icon of instagram">
+            </a>
+            <a  class="contact__social" href="#">
+                <img src="/images/brand/LinkedIn.svg" alt="icon of LinkedIn">
+            </a>
+            </div>
+        </div>
+
+        <div class="contact__formContent">
+            <h2 class="h2__heading">Let's work Together!</h2>
+            <form action="results.html">
+                <div class="contact__input">
+                  <input type="text" class="contact__input" name="name" placeholder="Full Name" required />
+                  <!-- <input type="email" class="contact__input" placeholder="Email" required /> -->
+                  <input
+                    type="tel"
+                    class="contact__input"
+                    placeholder="Phone No."
+                    name="tel"
+                    required
+                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                  />
+                </div>
+                <textarea
+                  class="contact__input contact__textarea"
+                  name="message"
+                  placeholder="Your Message"
+                  rows="1"
+                  required
+                ></textarea>
+                <input type="submit" class="contact__button" value="Send Message" />
+              </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
+
+<!-- 
+way to skills:
+
+<div class="skills__content">
+    <div class="skills__items">
+        <h3>html</h3>
+        <p>8 years</p>
+    </div>
+    <div class="skills__items">
+        <h3>css</h3>
+        <p>8 years</p>
+    </div>
+    <div class="skills__items">
+        <h3>javascript</h3>
+        <p>8 years</p>
+    </div>
+    <div class="skills__items">
+        <h3>react</h3>
+        <p>4 years</p>
+    </div>
+    <div class="skills__items">
+        <h3>redux</h3>
+        <p>3 years</p>
+    </div>
+    <div class="skills__items">
+    <h3>react testing library</h3>
+    <p>1 years</p>
+    </div> -->
